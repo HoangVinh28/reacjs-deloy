@@ -71,7 +71,8 @@ export default function Product() {
       width: "1%",
       align: "right",
       render: (text, record, index) => {
-        return <span>{numeral(text).format("0,0")}</span>;
+        /* return <span>{numeral(text).format("0,0")}</span>; */
+        return <span>{text}</span>;
       },
     },
     {
@@ -81,7 +82,8 @@ export default function Product() {
       width: "1%",
       align: "right",
       render: (text, record, index) => {
-        return <span>{numeral(text).format("0,0")}%</span>;
+        // return <span>{numeral(text).format("0,0")}%</span>;
+        return <span>{text}</span>;
       },
     },
     {
@@ -93,7 +95,8 @@ export default function Product() {
       width: "1%",
       align: "right",
       render: (text, record, index) => {
-        return <span>{numeral(text).format("0,0")}</span>;
+        // return <span>{numeral(text).format("0,0")}</span>;
+        return <span>{text}</span>;
       },
     },
     {
