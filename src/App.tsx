@@ -52,7 +52,7 @@ const contentStyle: React.CSSProperties = {
   backgroundColor: "#ffffff",
 };
 
-numeral.locale("vi");
+// numeral.locale("vi");
 
 function App() {
   return (
