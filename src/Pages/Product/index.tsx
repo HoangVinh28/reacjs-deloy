@@ -13,7 +13,7 @@ import type { ColumnsType } from "antd/es/table";
 
 import React from "react";
 import axios from "../../libraries/axiosClient";
-import numeral from "numeral";
+// import numeral from "numeral";
 
 const apiName = "/products";
 

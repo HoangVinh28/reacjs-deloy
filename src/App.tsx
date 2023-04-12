@@ -30,8 +30,8 @@ import Categories from "./Pages/Categories";
 import Homes from "./Pages/Homes";
 import Product from "./Pages/Product";
 
-import numeral from "numeral";
-import "numeral/locales/vi";
+// import numeral from "numeral";
+// import "numeral/locales/vi";
 
 import Supplier from "./Pages/Supplier";
 import Employee from "./Pages/Employee";
