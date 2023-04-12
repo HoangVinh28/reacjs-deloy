@@ -6,11 +6,10 @@ import type { ColumnsType } from "antd/es/table";
 
 import axios from '../../libraries/axiosClient'
 
-type Props = {};
 
 const apiName = '/employees';
 
-export default function Employee({}: Props) {
+export default function Employee() {
   const [employee, setEmployee] = React.useState<any[]>();
   const [refresh, setRefresh] = React.useState<number>(0);
   const [createFrom] = Form.useForm();

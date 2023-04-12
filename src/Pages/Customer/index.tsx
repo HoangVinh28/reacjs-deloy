@@ -6,11 +6,9 @@ import { Button, Form, Input, message, Modal, Space, Table } from "antd";
 import type { ColumnsType } from "antd/es/table";
 
 
-type Props = {};
-
 const apiName = '/customers';
 
-export default function Categories({}: Props) {
+export default function Categories() {
   const [customers, setCustomers] = React.useState<any[]>();
   const [refresh, setRefresh] = React.useState<number>(0);
   const [createFrom] = Form.useForm();
