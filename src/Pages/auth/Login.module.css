@@ -1,0 +1,59 @@
+.button {
+    background-color: #ffffff;
+    border: none;
+    color: #ffbb00;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "BenchNine", Arial, sans-serif;
+    border-radius: 2px;
+    outline: none;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+  .button:before,
+  .button:after {
+    border-color: transparent;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+    border-style: solid;
+    border-width: 0;
+    content: "";
+    height: 24px;
+    position: absolute;
+    width: 24px;
+  }
+  
+  .button:before {
+    border-color: #ffffff;
+    border-top-width: 2px;
+    left: 0px;
+    top: -5px;
+  }
+  
+  .button:after {
+    border-bottom-width: 2px;
+    border-color: #ffffff;
+    bottom: -5px;
+    right: 0px;
+  }
+  
+  .button:hover,
+  .button.hover {
+    background-color: #ffffff;
+  }
+  
+  .button:hover:before,
+  .button.hover:before,
+  .button:hover:after,
+  .button.hover:after {
+    height: 100%;
+    width: 100%;
+  }
+  .container {
+    border: 1px solid rgb(0, 0, 0);
+    margin: 15% 25% 0% 25%;
+    border-radius: 5px;
+    background-color: rgb(129, 129, 129);
+  }

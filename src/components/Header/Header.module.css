@@ -1,0 +1,23 @@
+.button {
+    background-color: dodgerblue;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    display: inline-block;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    border: none;
+    box-shadow: 0 5px #e8e8e8;
+    margin-left: 1100px;
+  }
+  .button:hover {
+    background-color: rgb(4, 92, 180);
+  }
+  .button:active {
+    background-color: rgb(4, 84, 165);
+    box-shadow: 0 5px #d0d0d0;
+    transform: translateY(5px);
+  }
