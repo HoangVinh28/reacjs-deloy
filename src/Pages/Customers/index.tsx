@@ -13,10 +13,9 @@ export default function KhachHang() {
       name: "Nguyễn Thanh Tùng",
       email: "tung123@gmail.com",
       phoneNumber: "0905628541",
-      address: "Đà Nẵng"
+      address: "Đà Nẵng",
     },
   ]);
-  
 
   const columns: ColumnsType<any> = [
     {
